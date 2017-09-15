@@ -1,0 +1,8 @@
+name: venv
+channels:
+dependencies:
+    - python==3.5.2
+    - pip:
+        - pika
+        - beautifulsoup4
+        - tqdm

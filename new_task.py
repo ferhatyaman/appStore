@@ -2,7 +2,11 @@
 import pika
 import sys, sqlite3
 
-connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost'))
+
+#Before to run new_task.py, be sure 
+credentials = pika.PlainCredentials('test', 'test')
+parameters = pika.ConnectionParameters('155.41.64.109', credentials=credentials) 
+connection = pika.BlockingConnection(parameters)
 channel = connection.channel()
 
 channel.queue_declare(queue='task_queue', durable=True)

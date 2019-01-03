@@ -26,7 +26,7 @@ This proccess has several step. It also has severeal requirements before run.
 
 After all steps, information of applications is ready.
 
-1. Static IP: 192.168.1.1
+1. Static IP: localhost
 2. Rabbitmq Credentials:
 	1. user: username
 	2. password: password

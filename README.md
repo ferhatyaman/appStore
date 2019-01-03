@@ -26,9 +26,8 @@ This proccess has several step. It also has severeal requirements before run.
 
 After all steps, information of applications is ready.
 
-Specific Case:(Margherita)
-1. Static IP: 128.197.176.242
+1. Static IP: 192.168.1.1
 2. Rabbitmq Credentials:
-	1. user: foo
-	2. password: bar
+	1. user: username
+	2. password: password
 3. Create a virtual environment for python codes

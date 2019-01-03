@@ -16,8 +16,8 @@ This proccess has several step. It also has severeal requirements before run.
 1. Install rabbitmq and start the server
 2. Run the appReader.py which creates appStore.db database which has information of apps.
 
-* **Note: ** this step may take 7-8 hours to execute. Be patient.
-* **Note: ** I also upload an example database which has 1.3 million app id 
+***Note: ** this step may take 7-8 hours to execute. Be patient.
+***Note: ** I also upload an example database which has 1.3 million app id 
 3. After Step 2 done, Run the new_task.py which sends information rabbitmq server.
 4. Run the worker.py on clusters
 	1. Download environment.yml, appStore.sh, Makefile, worker.py on your cluster workspace.

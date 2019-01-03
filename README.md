@@ -31,3 +31,5 @@ After all steps, information of applications is ready.
 	1. user: username
 	2. password: password
 3. Create a virtual environment for python codes
+
+This project is conducted at BU Secure Systems Lab(BUSec LAB) with guidance of **Prof. Manuel EGELE**. Thanks to him, I have completed the project and learn a lot stuff. 

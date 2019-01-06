@@ -32,7 +32,7 @@ conn = sqlite3.connect('appStore.db')
 c = conn.cursor()
 
 credentials = pika.PlainCredentials('test', 'test')
-parameters = pika.ConnectionParameters('155.41.124.90', credentials=credentials) 
+parameters = pika.ConnectionParameters('localhost', credentials=credentials) 
 
 connection = pika.BlockingConnection(parameters)
 channel = connection.channel()
